@@ -1,0 +1,23 @@
+/*Header*/
+.Header {
+	background: #222222;
+	padding: 1rem 2rem;
+}
+.Header a, .Header h1 {
+	display: inline-block;
+	vertical-align: middle;
+}
+.Header a img {
+	max-width: 100px;
+}
+.Header h1 {
+	color: #fff;
+	padding-left: 6rem;
+	font-size: 1.5rem;
+}
+
+/*Login*/
+.Login {
+	padding-top: 3rem;
+	max-width: 700px;
+}

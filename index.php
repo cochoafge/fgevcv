@@ -1,49 +1,29 @@
 <?php require('inc/templates/header.php'); ?>
-	<script>
-		// alert('ola');
-	</script>
-	<div class="container">
-	  <div class="row">
-	    <div class="col-sm">
-	      One of three columns
-	    </div>
-	    <div class="col-sm">
-	      One of three columns
-	    </div>
-	    <div class="col-sm">
-	      One of three columns
-	    </div>
-	  </div>
+	<div class="container Login">
+		<div class="card">
+            <div class="card-header">Iniciar sesión</div>
+            <div class="card-body">
+            	<form class="Login-form" method="POST" action="">
+            		<div class="form-group row">
+            			<label for="user" class="col-md-4 col-form-label text-right">Usuario</label>
+            			<div class="col-md-6">
+            				<input id="user" type="text" class="form-control" name="fge-user" value="" required="" autofocus="">
+            			</div>
+            		</div>
+            		<div class="form-group row">
+            			<label for="password" class="col-md-4 col-form-label text-right">Contraseña</label>
+            			<div class="col-md-6">
+            				<input id="password" type="password" class="form-control" name="fge-password" required="">
+            			</div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-8">
+                            <button type="submit" class="btn btn-secondary">Ingresar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
 	</div>
-
-	<table class="table table-dark">
-	  <thead>
-	    <tr>
-	      <th scope="col">#</th>
-	      <th scope="col">First</th>
-	      <th scope="col">Last</th>
-	      <th scope="col">Handle</th>
-	    </tr>
-	  </thead>
-	  <tbody>
-	    <tr>
-	      <th scope="row">1</th>
-	      <td>Mark</td>
-	      <td>Otto</td>
-	      <td>@mdo</td>
-	    </tr>
-	    <tr>
-	      <th scope="row">2</th>
-	      <td>Jacob</td>
-	      <td>Thornton</td>
-	      <td>@fat</td>
-	    </tr>
-	    <tr>
-	      <th scope="row">3</th>
-	      <td>Larry</td>
-	      <td>the Bird</td>
-	      <td>@twitter</td>
-	    </tr>
-	  </tbody>
-	</table>
 <?php require('inc/templates/footer.php'); ?>
