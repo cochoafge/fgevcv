@@ -20,4 +20,6 @@
 .Login {
 	padding-top: 3rem;
 	max-width: 700px;
+	margin: 0 auto;
+	display: block;
 }

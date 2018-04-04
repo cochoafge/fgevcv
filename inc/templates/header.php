@@ -14,3 +14,6 @@
 			</a>
 			<h1>Validación de Concesiones Vehiculares</h1>
 		</header>
+		<main class="container">
+			
+		
