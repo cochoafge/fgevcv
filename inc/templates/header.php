@@ -5,6 +5,7 @@
 		<title>Validador de Concesiones Vehiculares</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="css/fontawesome-all.min.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>

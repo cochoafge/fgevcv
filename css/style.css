@@ -23,3 +23,38 @@
 	margin: 0 auto;
 	display: block;
 }
+
+/*Listado de concesionarios*/
+.Concesionarios-contenedor {
+	max-width: 1000px;
+	display: block;
+	margin: 0 auto;
+	padding: 3rem 0;
+}
+.Concesionarios-lista .row {
+	border-left: 1px solid #dee2e6;
+	border-right: 1px solid #dee2e6;
+}
+.Concesionarios-lista .row .col {
+	padding: .75rem;
+}
+.Concesionarios-lista .row:first-child {
+	background-color: rgba(0,0,0,.05);
+	border-top: 1px solid #dee2e6;
+	border-bottom: 2px solid #dee2e6;
+}
+.Concesionarios-lista .row:last-child {
+	border-bottom: 1px solid #dee2e6;
+}
+.Concesionarios-lista .row .col:nth-child(2) {
+	border-right: 1px solid #dee2e6;
+}
+.Concesionarios-lista .row .col:nth-child(4) {
+	border-right: 1px solid #dee2e6;
+}
+.Concesionarios-lista .row .col:nth-child(6) {
+	border-right: 1px solid #dee2e6;
+}
+.Concesionarios-lista .row .col:last-child {
+	text-align: center;
+}
